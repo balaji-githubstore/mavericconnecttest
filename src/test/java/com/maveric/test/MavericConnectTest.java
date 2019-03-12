@@ -34,7 +34,7 @@ public class MavericConnectTest extends LaunchActivities {
 	@Test(priority=1,groups="high")
 	public void positiveCredentialCheck() throws IOException {
 		
-		System.out.println("test");
+		System.out.println("test 123");
 		/*String url=prop.getProperty("url");
 		String userName=prop.getProperty("username");
 		String password=prop.getProperty("password");
