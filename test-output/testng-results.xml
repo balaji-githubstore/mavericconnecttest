@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14068" started-at="2019-03-12T05:54:23Z" finished-at="2019-03-12T05:54:37Z">
+    <groups>
+      <group name="high">
+        <method signature="MavericConnectTest.positiveCredentialCheck()[pri:1, instance:com.maveric.test.MavericConnectTest@11758f2a]" name="positiveCredentialCheck" class="com.maveric.test.MavericConnectTest"/>
+      </group> <!-- high -->
+    </groups>
+    <test name="Default test" duration-ms="14068" started-at="2019-03-12T05:54:23Z" finished-at="2019-03-12T05:54:37Z">
+      <class name="com.maveric.test.MavericConnectTest">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.maveric.test.MavericConnectTest@11758f2a]" name="initialization" is-config="true" duration-ms="13385" started-at="2019-03-12T05:54:23Z" finished-at="2019-03-12T05:54:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="positiveCredentialCheck()[pri:1, instance:com.maveric.test.MavericConnectTest@11758f2a]" name="positiveCredentialCheck" duration-ms="0" started-at="2019-03-12T05:54:36Z" finished-at="2019-03-12T05:54:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveCredentialCheck -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.maveric.test.MavericConnectTest@11758f2a]" name="closeBrowser" is-config="true" duration-ms="648" started-at="2019-03-12T05:54:36Z" finished-at="2019-03-12T05:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.maveric.test.MavericConnectTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
