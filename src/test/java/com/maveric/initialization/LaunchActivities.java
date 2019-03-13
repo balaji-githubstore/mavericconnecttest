@@ -23,7 +23,7 @@ public class LaunchActivities {
 	
 	@BeforeTest(alwaysRun=true)
 	@Parameters({"browser"})
-	public void initialization(@Optional("ch") String browser) throws IOException
+	public void initialization(@Optional("ff") String browser) throws IOException
 	{    	
 		prop=PropertiesHandler.getPropertiesDetails("Utilities/data.properties");
 		
